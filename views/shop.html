@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+</head>
+<style>
+    body {
+        padding : 0;
+        margin : 0;
+        font-family: sans-serif;
+    }
+    .main-header {  
+        width : 100%;
+        height : 56px;
+        background-color: rgb(242, 173, 89);
+        padding: 0 1.5rem
+    }
+    .main-header__itemlist{
+        list-style: none;
+        margin:0;
+        padding:0;
+        display: flex;
+    }
+    .main-header__item{
+        text-decoration: none;
+        color: white;
+    }
+    .main-header__item a{
+        margin : 0 1rem;
+        padding : 0;
+    }
+    .main-header__nav{
+        height: 100%;
+        display: flex;
+        align-items:center;
+    }
+    .main-header-item a:hover,
+    .main-header-item a:active,
+    .main-header-item a:active {
+        color:rgb(159, 208, 52)
+    }
+
+</style>
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__itemlist">
+                <li class="main-header__item"><a class="active" href="/">Shop</a></li>
+                <li class="main-header__item"><a href="/add-product">Add Product</a></li>
+                <li class="main-header__item"><a href="/contact-us">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>My products</h1>
+        <p>My product list...</p>
+    </main>
+</body>
+</html>
